@@ -4,6 +4,7 @@ import smtplib
 from email.message import EmailMessage
 from dotenv import load_dotenv
 
+# Load credentials from .env file
 load_dotenv("op.env")
 
 EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
@@ -35,6 +36,6 @@ def main():
         print("OTP verified.")
     else:
         print("Invalid OTP.")
-
+        
 if __name__ == "__main__":
     main()
