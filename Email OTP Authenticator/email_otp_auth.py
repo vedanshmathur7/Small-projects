@@ -5,7 +5,7 @@ from email.message import EmailMessage
 from dotenv import load_dotenv
 
 # Load credentials from .env file
-load_dotenv("op.env")
+load_dotenv()
 
 EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")

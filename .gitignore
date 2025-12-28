@@ -1,0 +1,57 @@
+# Environment variables and credentials
+.env
+*.env
+.env.*
+!.env.example
+
+# Spotify cache and tokens (Terminal_spotify)
+.spotify_device.cache
+.spotify_token.cache
+.spotify.token.cache
+
+# Email credentials and config (Email OTP Authenticator)
+email_config.json
+credentials.json
+token.json
+*.credentials
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# API keys and secrets
+*secret*
+*apikey*
+*api_key*
+config.json
+secrets.json

@@ -1,0 +1,7 @@
+# Spotify credentials
+.env
+
+# Spotify cache and token files
+.spotify_device.cache
+.spotify_token.cache
+.spotify.token.cache
