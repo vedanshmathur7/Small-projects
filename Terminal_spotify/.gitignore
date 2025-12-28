@@ -2,6 +2,7 @@
 .env
 
 # Spotify cache and token files
+.cache
 .spotify_device.cache
 .spotify_token.cache
 .spotify.token.cache
